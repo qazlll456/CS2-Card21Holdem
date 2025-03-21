@@ -1,6 +1,24 @@
 # Ignore build output directories
 bin/
 obj/
+
 # Ignore compiled binaries
 *.dll
 *.pdb
+
+# Visual Studio temporary files
+*.user
+*.suo
+*.cache
+*.vs/
+.vscode/
+
+# NuGet packages
+packages/
+
+# Ignore user-specific IDE settings
+*.csproj.user
+
+# Ignore temporary files
+*.tmp
+*.bak

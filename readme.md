@@ -131,3 +131,11 @@ The plugin generates a `config.json` file in `csgo/addons/counterstrikesharp/con
     "EnableRoll": true
   }
 }
+```
+
+## Support the Project
+If you find this plugin helpful and want to support its development,
+
+consider donating via my Streamlabs tipping page: [Donate here](https://streamlabs.com/BKCqazlll456/tip). 
+
+Your support is greatly appreciated!

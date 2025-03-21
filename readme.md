@@ -22,7 +22,7 @@ A special shoutout to **TRLG nick** from the UK for sponsoring this project! You
 
 ## Demo
 
-![Youtube - CS2 plugin - CS2-Card21Holdem demonstrate video](https://www.youtube.com/watch?v=xUzLW0t8Z9U&ab_channel=qazlll456)
+Youtube video - [Youtube - CS2 plugin - CS2-Card21Holdem demonstrate video](https://www.youtube.com/watch?v=xUzLW0t8Z9U&ab_channel=qazlll456)
 
 ## Prerequisites
 

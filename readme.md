@@ -1,16 +1,26 @@
 # CS2-Card21Holdem
 
+
 A Counter-Strike 2 (CS2) plugin built with CounterStrikeSharp that adds two exciting card games—**Blackjack (Card 21)** and **Texas Hold'em**—along with a simple dice-rolling feature. Enhance your CS2 server with interactive gameplay for players during downtime!
 
-- **Author**: qazlll456 from HK, with assistance from xAI
+## Overview
+This plugin brings the thrill of card games to your Counter-Strike 2 server using the CounterStrikeSharp framework. Players can enjoy **Blackjack (Card 21)** against a dealer, compete in **Texas Hold'em** with friends and a bot, or roll a random number for fun. It supports a variety of chat commands like `!card21`, `!holdem`, and `!roll`, along with admin commands for server management.
+
+- **Module Name**: CS2-Card21Holdem
 - **Version**: 1.0.0
-- **License**: MIT
+- **Author**: qazlll456 from HK with xAI assistance
+- **Description**: A plugin for Card 21 and Hold'em games in CS2
 
 ## Donors
 
 This section is to express my heartfelt thanks to the individuals who donated to support the development of this project. Your contributions help keep this project alive and motivate me to continue improving it!
 
-A special shoutout to **TRLG nick** from the UK for sponsoring this project! Your generosity is greatly appreciated.
+A special shoutout to **TRLG nick** from the UK for sponsoring this project! I really appreciate your generosity.
+
+## Support
+If you enjoy this plugin, consider supporting my work!  
+Money, Steam games or any value is also welcome
+[Donate - streamlabs, paypal](https://streamlabs.com/BKCqazlll456/tip)
 
 ## Features
 

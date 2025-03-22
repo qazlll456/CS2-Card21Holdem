@@ -20,6 +20,50 @@ If you enjoy this plugin, consider supporting my work!
 Money, Steam games, or any valuable contribution is welcome.  
 [Donate - Streamlabs, PayPal](https://streamlabs.com/BKCqazlll456/tip)
 
+## Game Rules
+
+### Card 21 (Blackjack) Rules
+**Objective**: The goal is to achieve a hand score as close to 21 as possible without going over, while beating the dealer’s score.
+
+- **Gameplay**:  
+  - You start with 2 cards, and the dealer gets 2 cards (one is hidden).  
+  - Use `!card21 hit` to draw another card or `!card21 stand` to end your turn.  
+  - Card values: Aces are worth 11 or 1 (automatically adjusted to avoid busting), face cards (K, Q, J) are 10, and numbered cards are their face value (e.g., 2 is 2, 10 is 10).  
+  - If your score exceeds 21, you bust and lose immediately.  
+  - After you stand, the dealer reveals their hidden card and must draw until their score is 17 or higher.  
+
+- **Win Conditions**:  
+  - You win if your score is higher than the dealer’s without busting, or if the dealer busts (score > 21).  
+  - You lose if you bust or if the dealer’s score is higher without busting.  
+  - If your score equals the dealer’s, it’s a "Push" (tie), and no one wins.  
+
+### Texas Hold'em Rules
+**Objective**: The goal is to form the best 5-card poker hand using your personal cards and the community cards, outranking other players’ hands to win the game.
+
+- **Gameplay**:  
+  - A game supports up to 4 players (including a bot). Use `!holdem host <number>` to start a game, `!holdem join` to join, and `!holdem start` to begin.  
+  - There are 5 community cards dealt at the start, shared by all players.  
+  - Each player receives 1 card per round (up to 4 rounds). After each round, use `!holdem yes` to continue and draw another card, or `!holdem fold` to exit the game.  
+  - If a player doesn’t respond within 30 seconds, they are automatically folded.  
+  - The game ends after 4 rounds or when only one player remains (others have folded).  
+
+- **Win Conditions**:  
+  - The player with the best 5-card hand wins, determined by combining their personal cards with the community cards.  
+  - Hand rankings (from highest to lowest):  
+    - **Royal Flush**: A, K, Q, J, 10, all of the same suit (e.g., A♥ K♥ Q♥ J♥ 10♥).  
+    - **Straight Flush**: Five consecutive cards of the same suit (e.g., 9♠ 8♠ 7♠ 6♠ 5♠).  
+    - **Four of a Kind**: Four cards of the same rank (e.g., 7♥ 7♠ 7♣ 7♦ 2♠).  
+    - **Full House**: Three cards of one rank and two cards of another (e.g., 8♣ 8♦ 8♠ 3♥ 3♣).  
+    - **Flush**: Five cards of the same suit, not in sequence (e.g., K♠ J♠ 9♠ 6♠ 2♠).  
+    - **Straight**: Five consecutive cards of different suits (e.g., 6♠ 5♥ 4♣ 3♦ 2♠).  
+    - **Three of a Kind**: Three cards of the same rank (e.g., Q♥ Q♠ Q♣ 5♦ 2♠).  
+    - **Two Pair**: Two pairs of different ranks (e.g., J♠ J♣ 4♥ 4♦ 9♠).  
+    - **Pair**: Two cards of the same rank (e.g., 10♣ 10♦ 8♠ 5♥ 3♣).  
+    - **High Card**: When no other hand is made, the highest card wins (e.g., A♠ 9♣ 7♦ 4♠ 2♥, Ace is the high card).  
+  - **Tiebreakers**: If players have the same hand type, the highest card values win (e.g., for Two Pair, the higher pair wins; for High Card, the highest card wins). If still tied, additional cards (kickers) are compared.  
+  - **Winning the Game**: You win if you have the best hand after 4 rounds or if all other players fold, leaving you as the last player standing.
+
+
 ## Features
 - **Card 21 (Blackjack)**: Play a classic Blackjack game against a dealer, aiming for a score of 21 without going over.
 - **Texas Hold'em**: Host or join a poker game with up to 4 players (including a bot), featuring community cards and multiple rounds.

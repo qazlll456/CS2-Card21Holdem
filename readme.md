@@ -13,7 +13,7 @@ This plugin brings the thrill of card games to your Counter-Strike 2 server usin
 ## Donors
 This section is to express my heartfelt thanks to the individuals who donated to support the development of this project. Your contributions help keep this project alive and motivate me to continue improving it!
 
-A special shoutout to **TRLG nick** from the UK for sponsoring this project! I truly appreciate your generosity.
+A special shoutout to **TRLG nick from the UK** for sponsoring this project! I truly appreciate your generosity.
 
 ## Support
 If you enjoy this plugin, consider supporting my work!  

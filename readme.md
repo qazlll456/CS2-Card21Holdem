@@ -16,9 +16,17 @@ This section is to express my heartfelt thanks to the individuals who donated to
 A special shoutout to **TRLG nick from the UK** for sponsoring this project! I truly appreciate your generosity.
 
 ## Support
-If you enjoy this plugin, consider supporting my work!  
-Money, Steam games, or any valuable contribution is welcome.  
-[Donate - Streamlabs, PayPal](https://streamlabs.com/BKCqazlll456/tip)
+If you find this plugin helpful and want to support its development, 
+
+Money, Steam games, or any valuable contribution is welcome.
+
+[ko_fi](https://ko-fi.com/qazlll456).
+
+[patreon](https://www.patreon.com/c/qazlll456).
+
+[Streamlabs](https://streamlabs.com/BKCqazlll456/tip)
+
+Your support is greatly appreciated!
 
 ## Game Rules
 
